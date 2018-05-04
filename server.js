@@ -26,27 +26,6 @@ app.use(bodyParser.json());
 app.use(cors());
 
 
-// Test database
-const database = {
-  users : [
-    {
-      id: '123',
-      name: 'Emmanuel',
-      email: 'emm@test.com',
-      password: 'pass',
-      entries: 0,
-      joined: new Date()
-    },
-    {
-      id: '124',
-      name: 'Ainhoa',
-      email: 'ainhoa@test.com',
-      password: 'pass',
-      entries: 0,
-      joined: new Date()
-    },
-  ]
-}
 
 /*-----------------------         ROUTES       -------------------*/
 
